@@ -18,3 +18,10 @@ main {
 .items:hover {
   background-color: lightskyblue;
 }
+.parrafoamplio {
+  transition: font-size 600ms ease-out;
+}
+.parrafoamplio:hover {
+  font-size: larger;
+  cursor: pointer;
+}
