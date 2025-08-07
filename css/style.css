@@ -25,3 +25,12 @@ main {
   font-size: larger;
   cursor: pointer;
 }
+.itemopacidad{
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  transition: opacity 200ms ease-out;
+}
+.itemopacidad:hover{
+  opacity: 1;
+}
