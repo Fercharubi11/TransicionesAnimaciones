@@ -34,3 +34,23 @@ main {
 .itemopacidad:hover{
   opacity: 1;
 }
+.subrayado{
+  position: relative;
+  display: inline-block;
+}
+.subrayado:hover{
+  cursor: pointer;
+}
+.subrayado::after{
+  content: "";
+  position: absolute;
+  background-color: greenyellow;
+  left: 0px;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  transition: width 400ms ease-in;
+}
+.subrayado:hover::after{
+  width: 100%;
+}
